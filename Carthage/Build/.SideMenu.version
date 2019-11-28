@@ -3,7 +3,8 @@
   "iOS" : [
     {
       "name" : "SideMenu",
-      "hash" : "06fa1c5e6e6fb71d793cb76e47adbc62c8e64a022d6ac3da617dec912c9fef08"
+      "hash" : "96fd0c23b09aab87d7b0e979f8ee6edf0146afd40e24dfaba6098e2516e97799",
+      "swiftToolchainVersion" : "5.1.2 (swiftlang-1100.0.278 clang-1100.0.33.9)"
     }
   ]
 }

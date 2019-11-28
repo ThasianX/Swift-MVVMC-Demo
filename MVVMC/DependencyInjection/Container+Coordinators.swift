@@ -2,6 +2,15 @@ import Swinject
 
 extension Container {
     
+    /*
+     AppCoordinator <- SessionService
+     SignInCoordinator <- SignInViewModel
+     DrawerMenuCoordinator <- SessionService, DrawerMenuViewModel
+     DashboardCoordinator <- DataManager, DashboardViewModel
+     OnBoardingCoordinator <- DataManager, SetNameViewModel, SetOptionsViewModel
+     SettingsCoordinator <- SettingsViewModel
+     */
+    
     func registerCoordinators() {
         self.autoregister(AppCoordinator.self, initializer: AppCoordinator.init)
         self.autoregister(SignInCoordinator.self, initializer: SignInCoordinator.init)
