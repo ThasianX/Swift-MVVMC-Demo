@@ -448,8 +448,8 @@
 			isa = PBXGroup;
 			children = (
 				16A1E5A122DA40C30003F0DF /* Container+RegisterDependencies.swift */,
-				16A1E5A022DA40C30003F0DF /* Container+ViewModels.swift */,
 				16A1E5A222DA40C30003F0DF /* Container+Services.swift */,
+				16A1E5A022DA40C30003F0DF /* Container+ViewModels.swift */,
 				16A1E5A322DA40C30003F0DF /* Container+Coordinators.swift */,
 			);
 			path = DependencyInjection;
